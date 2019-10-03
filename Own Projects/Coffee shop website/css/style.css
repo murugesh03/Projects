@@ -1,0 +1,71 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} 
+
+body{ 
+    background-image:url(../coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white; 
+}
+
+header {
+    height: 60px;
+    padding: 20px;
+    position: sticky;
+    
+}
+header .title_menu h3{
+    float:left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    
+
+}
+
+
+
+nav {
+    float: right;
+}
+
+header .menu_list ul li{
+    display: inline;
+    /* float:left; */
+    /* margin:32px; */
+    font-family: 'Merienda', cursive;
+    line-height: 56px;
+    margin: 0 32px;
+   
+}
+header .menu_list ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+section .firstpara p{
+    font-family: 'Yellowtail', cursive;
+    text-align: right;  
+    margin-top: 137px;
+    margin-right: 150px;
+}
+
+section .firstpara{
+    font-size:25px;
+}
+
+footer .bottom{
+    margin-top: 390px;
+    padding: 6px;
+    color:#ffffff;
+    text-align: left;
+}
+header .about p{
+    text-align: center;   
+}
+
+section.about p{
+    margin-top      :300px;
+}

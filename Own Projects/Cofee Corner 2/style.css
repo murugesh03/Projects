@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{ 
+    background-image:url(./images/bar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    
+    height:80px;
+    line-height: 40px;
+}
+.title{
+
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;  
+}
+
+.coffeeshop{
+    display: inline-block;
+    float: left;
+    height: inherit;
+    color:#ffffff;
+    width: auto;
+    line-height: inherit;
+}
+
+
+.menu_bar ul {
+    display: inline;
+    float: right;
+    text-decoration: none;
+
+}
+.menu_bar ul li {
+   display: inline;
+   margin-left: 2rem;
+    line-height: inherit;
+    
+}
+.menu_bar ul li a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+
+.description p{
+    float: right;
+    margin-right: 274px;
+    margin-top: 220px;
+    color: #ffffff;
+    font-size: 3rem;
+    padding: 70px 0;
+  
+  
+}
+.description{
+    font-family: 'Parisienne', cursive;
+    margin-top:10px;
+}
+
+.footer_view{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.contact_us p{
+    line-height: inherit;
+    height: inherit;
+ 
+    
+}
+.contact_us{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+.copy_rights{
+    color: #ffffff;
+    margin-right: 12px;
+    margin-top: 127px;
+}
+
+/* .title{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    
+
+}
+.menu_bar{
+    margin: auto;
+} */
